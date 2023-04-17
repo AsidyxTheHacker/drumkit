@@ -11,7 +11,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #title {
@@ -22,7 +22,7 @@ body {
 }
 
 #buttons {
-
+    display: flex;
 }
 
 button {
@@ -34,7 +34,6 @@ button {
     padding: 8px;
     border-radius: 40% 40% 20% 20%;
     width: 8rem;
-    margin: 5px;
     text-shadow: 0 5px 0 rgb(182, 182, 182), 0 0 5px rgba(0, 0, 0, 0.668);
     box-shadow: rgb(164, 164, 164) 0 5px 0, rgb(70, 70, 70) 0 10px 0, 0 0 6px inset rgba(0, 0, 0, 0.569);
     cursor: pointer;
@@ -52,6 +51,11 @@ button:active {
     box-shadow: rgb(24, 113, 140) 0 4px 0, rgb(44, 44, 44) 0 9px 0, 0 0 12px inset rgba(0, 0, 0, 0.569);
 }
 
+.key {
+    text-align: center;
+    margin: 6px;
+}
+
 @media (max-width: 500px) {
     #title {
      font-size: 4.5em;
@@ -62,7 +66,9 @@ button:active {
     text-shadow: 0 3px 0 rgb(182, 182, 182), 0 0 5px rgba(0, 0, 0, 0.668);
     padding: 0;
     width: 5.5rem;
-    margin-top: 10px;
-    margin-left: 22px;
+    height: 4.5rem;
+   }
+   #buttons {
+    display: block;
    }
  }
