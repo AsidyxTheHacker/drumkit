@@ -56,10 +56,23 @@ button:active {
     margin: 6px;
 }
 
+.key:hover p {
+    color:rgb(140, 220, 246);
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.678);
+    letter-spacing: 1px;
+    font-size:1.15em;
+}
+
 @media (max-width: 500px) {
     #title {
      font-size: 4.5em;
-     text-shadow: rgb(164, 164, 164) 0 3px 0, rgb(70, 70, 70) 0 6px 0, black 0 3px 6px;
+     width: 21rem;
+     text-shadow: rgb(164, 164, 164) 0 5px 0, rgb(70, 70, 70) 0 10px 0, black 0 6px 8px;
    }
    button {
     font-size: 3em;
@@ -69,6 +82,10 @@ button:active {
     height: 4.5rem;
    }
    #buttons {
-    display: block;
+    flex-flow: wrap;
+    width: 19rem;
+   }
+   p {
+    font-size: .9em;
    }
  }
