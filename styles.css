@@ -55,6 +55,7 @@ button:active {
 @media (max-width: 500px) {
     #title {
      font-size: 4.5em;
+     text-shadow: rgb(164, 164, 164) 0 3px 0, rgb(70, 70, 70) 0 6px 0, black 0 3px 6px;
    }
    button {
     font-size: 3em;
