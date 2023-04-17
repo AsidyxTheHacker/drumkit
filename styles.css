@@ -15,7 +15,7 @@ body {
 }
 
 #title {
-    font-size: 5em;
+    font-size: 7em;
     font-weight: bold;
 }
 
@@ -24,5 +24,12 @@ body {
 }
 
 button {
-
+    color:white;
+    background-color: rgba(0, 0, 0, 0.237);
+    border: solid black 3px;
+    font-size: 5em;
+    font-weight: bold;
+    padding:8px 4px;
+    border-radius: 40% 40% 20% 20%;
+    width: 7rem;
 }
