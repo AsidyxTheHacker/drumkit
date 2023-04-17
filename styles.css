@@ -16,7 +16,7 @@ body {
 
 #title {
     color:white;
-    text-shadow: rgb(164, 164, 164) 0 5px 0, rgb(70, 70, 70) 0 10px 0, black 0 5px 8px;
+    text-shadow: rgb(164, 164, 164) 0 8px 0, rgb(70, 70, 70) 0 15px 0, black 0 15px 8px;
     font-size: 10em;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ p {
 @media (max-width: 500px) {
     #title {
      font-size: 4.5em;
-     width: 21rem;
+     width: 20.6rem;
      text-shadow: rgb(164, 164, 164) 0 5px 0, rgb(70, 70, 70) 0 10px 0, black 0 6px 8px;
    }
    button {
