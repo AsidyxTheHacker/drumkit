@@ -45,7 +45,7 @@ button:hover {
     border: solid rgb(79, 174, 205) 3px;
 }
 
-button:active {
+button:active, .playing {
     transform: translateY(2px);
     text-shadow: 0 4px 0 rgb(182, 182, 182), 0 0 5px rgba(0, 0, 0, 0.668);
     box-shadow: rgb(24, 113, 140) 0 4px 0, rgb(44, 44, 44) 0 9px 0, 0 0 12px inset rgba(0, 0, 0, 0.569);
